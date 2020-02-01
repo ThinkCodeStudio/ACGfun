@@ -1,0 +1,119 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>人形电脑天使心 | ThinkCodeACG</title><meta name="description" content="人形电脑天使心"><meta name="keywords" content="搞笑,科幻,恋爱,美少女"><meta name="author" content="ThinkCode"><meta name="copyright" content="ThinkCode"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/ACGfun/img/ayer.png"><link rel="preconnect" href="//cdn.jsdelivr.net"><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin><link rel="preconnect" href="//busuanzi.ibruce.info"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="人形电脑天使心"><meta name="twitter:description" content="人形电脑天使心"><meta name="twitter:image" content="http://ae01.alicdn.com/kf/HTB1W.gpSzTpK1RjSZKPq6y3UpXaI.jpg"><meta property="og:type" content="article"><meta property="og:title" content="人形电脑天使心"><meta property="og:url" content="https://thinkcodestudio.github.io/ACGfun/2020/02/01/%E4%BA%BA%E5%BD%A2%E7%94%B5%E8%84%91%E5%A4%A9%E4%BD%BF%E5%BF%83/"><meta property="og:site_name" content="ThinkCodeACG"><meta property="og:description" content="人形电脑天使心"><meta property="og:image" content="http://ae01.alicdn.com/kf/HTB1W.gpSzTpK1RjSZKPq6y3UpXaI.jpg"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>const autoChangeMode = 'false'
+var t = Cookies.get("theme");
+if (autoChangeMode == '1'){
+const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+if (t === undefined){
+  if (isLightMode) activateLightMode()
+  else if (isDarkMode) activateDarkMode()
+  else if (isNotSpecified || hasNoSupport){
+    console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+    now = new Date();
+    hour = now.getHours();
+    isNight = hour < 6 || hour >= 18
+    isNight ? activateDarkMode() : activateLightMode()
+}
+} else if (t == 'light') activateLightMode()
+else activateDarkMode()
+
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/ACGfun/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="https://thinkcodestudio.github.io/ACGfun/2020/02/01/%E4%BA%BA%E5%BD%A2%E7%94%B5%E8%84%91%E5%A4%A9%E4%BD%BF%E5%BF%83/"><link rel="prev" title="模板" href="https://thinkcodestudio.github.io/ACGfun/2020/02/01/%E6%A8%A1%E6%9D%BF/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/ACGfun/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    title: 'Snackbar.bookmark.title',
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  baiduPush: false,
+  isHome: false,
+  isPost: true
+  
+}</script><meta name="generator" content="Hexo 4.2.0"></head><body><canvas class="fireworks"></canvas><header> <div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/ACGfun/">ThinkCodeACG</a></span><span class="toggle-menu pull_right close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/ACGfun/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="https://thinkcodestudio.github.io/"><i class="fa-fw fa fa-globe"></i><span> 主站</span></a></div><div class="menus_item"><a class="site-page" href="/ACGfun/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/ACGfun/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/ACGfun/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/ACGfun/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/ACGfun/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></span><span class="pull_right" id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></span></div></header><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/ACGfun/img/123.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/ACGfun/archives/"><div class="headline">文章</div><div class="length_num">9</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/ACGfun/tags/"><div class="headline">标签</div><div class="length_num">16</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/ACGfun/categories/"><div class="headline">分类</div><div class="length_num">9</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="/ACGfun/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="https://thinkcodestudio.github.io/"><i class="fa-fw fa fa-globe"></i><span> 主站</span></a></div><div class="menus_item"><a class="site-page" href="/ACGfun/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/ACGfun/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/ACGfun/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/ACGfun/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/ACGfun/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></div><div id="mobile-sidebar-toc"><div class="toc_mobile_headline">目录</div><div class="sidebar-toc__content"></div></div></div><div id="body-wrap"><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true">     </i><div class="auto_open" id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"></div></div></div><main id="content-outer"><div id="top-container" style="background-image: url(https://lh4.googleusercontent.com/proxy/iuBNxgespt5rORMD40Wfr5WMXc214lF5AJsvhev0uTf15AUz3zFb06JcfXAn33Cpw9MahE3uZOmzghwtyRx2S5UuuAR2QV-EfBnycW8xAzT_y2YM9fysnyV99gYEbmxrkZFkX8hOp6Y)"><div id="post-info"><div id="post-title"><div class="posttitle">人形电脑天使心</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 发表于 2020-02-01<span class="post-meta__separator">|</span><i class="fa fa-history fa-fw" aria-hidden="true"></i> 更新于 2020-02-01</time><div class="post-meta-wordcount"><div class="post-meta-pv-cv"><span><i class="fa fa-eye post-meta__icon fa-fw" aria-hidden="true"> </i>阅读量:</span><span id="busuanzi_value_page_pv"></span></div></div></div></div></div><div class="layout layout_post" id="content-inner">   <article id="post"><div class="article-container" id="post-content"><html><head></head><body><p><a href="http://ae01.alicdn.com/kf/HTB1W.gpSzTpK1RjSZKPq6y3UpXaI.jpg" target="_blank" rel="noopener" data-fancybox="group" data-caption="封面" class="fancybox"><img alt="封面" data-src="http://ae01.alicdn.com/kf/HTB1W.gpSzTpK1RjSZKPq6y3UpXaI.jpg" class="lazyload" title="封面"></a></p>
+<ul>
+<li><p>时间：2002-4</p>
+</li>
+<li><p>篇数：28P</p>
+</li>
+<li><p>片源：<a href="https://www.bilibili.com/bangumi/media/md2061/?from=search&seid=17916929708210276742" target="_blank" rel="noopener">B站</a></p>
+</li>
+<li><p>喜欢程度：4❤</p>
+</li>
+<li><p>在牧野间长大的本须和秀树（杉田智和 配音）因不甘心投报东京的大学失败，毅然决定来东京上补习学校。在东京街头，秀树发现街上随处可见人形电脑，在这个时代无比流行。他们有着和人别无二致的漂亮模样，连皮肤的触觉都很柔软。 穷学生秀树也很希望拥有一台但碍于其高昂的价格，只能远观。夜晚在回公寓的路上，秀树在垃圾堆里发现了少女模样的人形电脑。秀树将其扛回家，启动开关的同时也至此改变了自己的人生。苏醒的人形电脑由于只会发出“叽”的声音，因此被命名为小叽（田中理惠 配音）。在秀树的教导下，小叽如同婴儿般渐渐成长，也让秀树发现了小叽与其它人形电脑的不同。有着自己意识，而非电脑程序操控的叽渐渐对秀树心生好感，但电脑与人，机器与肉体，复杂的情况让二人踯躅不前。除了秀树和小叽，还有其它人与人形电脑的故事，或悲伤或感动，在高科技的时代依然上演着最本真的温情故事。</p>
+</li>
+<li><p>角色声优</p>
+<blockquote>
+<p>小叽：田中理恵<br>本须和秀树：杉田智和<br>新保 弘：関智一<br>柚姬：折笠富美子<br>国分寺 稔：桑島法子<br>日比谷 千岁：井上喜久子<br>大村 裕美：豊口めぐみ<br>清水 多香子：柚木涼香<br>植田 弘康：うえだゆうじ</p>
+</blockquote>
+</li>
+<li><p>制作</p>
+<blockquote>
+<p>原作： CLAMP<br>导演： 浅香守生<br>脚本： 花田十輝、大川七瀬、大久保智康、玉井☆豪、植竹須美男、堀井明子<br>分镜： 渕上真、青山弘、片渕須直、坂田純一、原博、長井龍雪、島崎奈々子、八谷賢一、小島正幸、浅香守生<br>演出： 渕上真、島崎奈々子、田中洋之、長井龍雪、太田雅彦、浅香守生<br>人物设定： 阿部恒<br>分镜构图： 坂巻貞彦<br>作画监督： 濱田邦彦<br>原画： 和田高明<br>主题歌演出： ROUND TABLE featuring Nino<br>企画： 丸山正雄<br>制作管理： 米田和博<br>音响监督： 三間雅文<br>补间动画： 今井一暁<br>制作助手： 童夢<br>动画制作： MADHOUSE</p>
+</blockquote>
+</li>
+</ul>
+</body></html></div></article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/ACGfun/tags/%E6%90%9E%E7%AC%91/">搞笑    </a><a class="post-meta__tags" href="/ACGfun/tags/%E7%A7%91%E5%B9%BB/">科幻    </a><a class="post-meta__tags" href="/ACGfun/tags/%E6%81%8B%E7%88%B1/">恋爱    </a><a class="post-meta__tags" href="/ACGfun/tags/%E7%BE%8E%E5%B0%91%E5%A5%B3/">美少女    </a></div><div class="post_share"></div></div><nav class="pagination_post" id="pagination"><div class="prev-post pull-full"><a href="/ACGfun/2020/02/01/%E6%A8%A1%E6%9D%BF/"><img class="prev_cover lazyload" data-src="https://inews.gtimg.com/newsapp_bt/0/8681830792/640" onerror="onerror=null;src='/img/404.jpg'"><div class="label">上一篇</div><div class="prev_info"><span>模板</span></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-fw fa-thumbs-up" aria-hidden="true"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/ACGfun/2020/02/01/旋风管家第一季/" title="旋风管家第一季"><img class="relatedPosts_cover lazyload"data-src="http://a3.att.hudong.com/27/71/01000000000000119087119128827.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-02-01</div><div class="relatedPosts_title">旋风管家第一季</div></div></a></div><div class="relatedPosts_item"><a href="/ACGfun/2020/02/01/轻音少女第一季/" title="轻音少女第一季"><img class="relatedPosts_cover lazyload"data-src="https://uploadfile.bizhizu.cn/up/d8/2a/ef/d82aefa2e0b2a0fefff21737090e5b87.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-02-01</div><div class="relatedPosts_title">轻音少女第一季</div></div></a></div><div class="relatedPosts_item"><a href="/ACGfun/2020/02/01/海贼王/" title="海贼王"><img class="relatedPosts_cover lazyload"data-src="http://www.sinaimg.cn/dy/slidenews/21_img/2014_40/17327_3739404_250787.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-02-01</div><div class="relatedPosts_title">海贼王</div></div></a></div><div class="relatedPosts_item"><a href="/ACGfun/2020/02/01/龙珠GT/" title="龙珠GT"><img class="relatedPosts_cover lazyload"data-src="https://img.3dmgame.com/uploads/images/news/20190317/1552791209_350701.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-02-01</div><div class="relatedPosts_title">龙珠GT</div></div></a></div></div><div class="clear_both"></div></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> 评论</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var notify = true == true ? true : false;
+var verify = true == true ? true : false;
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  appId:'1nDmC3qhwgYnBsE7NBg7oEAw-gzGzoHsz',
+  appKey:'HjbCgzreW9IN32YjJsEmigWM',
+  placeholder:'说说你的看法吧',
+  avatar:'monsterid',
+  guest_info:guest_info,
+  pageSize:'10',
+  lang:'zh-cn',
+  recordIP: true
+});</script></div></div></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By ThinkCode</div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment" href="#post-comment" title="直达评论"><i class="scroll_to_comment fa fa-comments">  </i></a><i class="fa fa-list-ul close" id="mobile-toc-button" title="目录" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/ACGfun/js/utils.js"></script><script src="/ACGfun/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/fireworks.js"></script><script id="ribbon" src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/canvas-ribbon.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><script id="ribbon_piao" mobile="false" src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/piao.js"></script><script src="https://cdn.jsdelivr.net/npm/activate-power-mode/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false; 
+document.body.addEventListener('input', POWERMODE);
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div></body></html>
